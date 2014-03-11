@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/bin/sh
+
+TMPFILE=`mktemp /tmp/ditaa.XXXXXX` &amp;&amp; ditaa --round-corners --no-shadows --no-separation $TM_FILEPATH $TMPFILE.png 2&gt;&amp;1 &gt;/dev/null &amp;&amp; echo \&lt;img src=\"file://$TMPFILE.png\"\/\&gt;</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>@r</string>
+	<key>name</key>
+	<string>Preview</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>uuid</key>
+	<string>75C5A95D-4841-4DC0-9952-684C5B552D98</string>
+</dict>
+</plist>

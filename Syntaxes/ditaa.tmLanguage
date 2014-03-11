@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>ditaa</string>
+	</array>
+	<key>keyEquivalent</key>
+	<string>^~D</string>
+	<key>name</key>
+	<string>ditaa</string>
+	<key>scopeName</key>
+	<string>source.ditaa</string>
+	<key>uuid</key>
+	<string>6D936130-B005-4535-AF32-3228174544F4</string>
+</dict>
+</plist>
