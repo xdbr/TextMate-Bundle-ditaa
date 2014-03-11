@@ -45,6 +45,11 @@ Contributing
 
 4) `git commit`
 
+Hints, Links, Miscellanea
+-------------------------
+
+* <http://www.asciiflow.com/>
+
 Author
 ------
 
